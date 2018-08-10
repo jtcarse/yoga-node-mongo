@@ -1,0 +1,17 @@
+{
+  "name": "yoga-node-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jtcarse/yoga-node-mongo.git",
+  "author": "jtcarse",
+  "license": "unlicensed",
+  "private": true,
+  "dependencies": {
+    "graphql-yoga": "^1.15.1",
+    "mongoose": "^5.2.7",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
